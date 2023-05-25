@@ -192,7 +192,7 @@ if (xlikesybutton.on === 'true'){
 } else if (xlikedbyybutton.on === 'true'){
     title.text = country_name + " liked by.."
     if (available_countries.includes(country_name)) {
-        polygonSeries.data = color_data_likes[country_name];
+        polygonSeries.data = color_data_likedby[country_name];
     }
     else{
         polygonSeries.data = [0];
