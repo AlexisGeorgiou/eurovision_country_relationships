@@ -25,7 +25,7 @@ Using this map we can see how each country's population is more keened to vote f
 I will add more filters in the future for Jury and for Jury and Tele together which could allow me to add older events too.
 
 ## Future work technical stuff
-I would like to improve the UI a bit (add legends/labels, use colors in buttons, color the selected country), make the buttons more function, maybe add some flags, change the coordinates of Australia to be closer in Europe and make a Rest of the world country. Add Jury vote filter. Come up with more visualizations.
+I would like to improve the UI a bit (add legends/labels, use colors in buttons, color the selected country), make the buttons more function, maybe add some flags, change the coordinates of Australia to be closer in Europe and make a Rest of the world country. Add Jury vote filter. Come up with more visualizations. Find more data that can be used, for example, which music genre or which language each country prefers in songs.
 <p align="center">
 <img align='center' src="https://imgur.com/2c7HPXE.png" width=50% height=50%>
 </p>
