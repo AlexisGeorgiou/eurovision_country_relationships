@@ -1,6 +1,7 @@
 <p align="center">
   <img align='center' src="https://imgur.com/HpMr0vs.png" width=75% height=75%>
 </p>
+
 # Eurovision voting relationships
 
 You can see the visualization here: https://alexisgeorgiou.github.io/eurovision_country_relationships/<br>
