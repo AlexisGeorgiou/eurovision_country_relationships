@@ -1,4 +1,4 @@
-![Project logo](https://imgur.com/HpMr0vs.png)
+<img align='center' src="https://imgur.com/HpMr0vs.png" width=50% height=50%>
 # Eurovision voting relationships
 
 You can see the visualization here: https://alexisgeorgiou.github.io/eurovision_country_relationships/<br>
