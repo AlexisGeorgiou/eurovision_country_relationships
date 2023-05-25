@@ -16,8 +16,20 @@ title.align = "left";
 title.padding(5, 5, 5, 5);
 title.y = "20em";
 title.marginLeft = "20%";
+
 // Set map definition
 chart.geodata = am4geodata_worldHigh;
+
+var sub_title = chart.titles.create();
+sub_title.text = "Based on Televoting Scores 2016-2023 \n Made by Alexis Georgiou - 2023";
+sub_title.fontSize = 14;
+sub_title.align = "left";
+sub_title.marginLeft= 10;
+sub_title.padding(5, 5, 5, 5);
+sub_title.y = "40";
+
+sub_title.marginLeft = "0";
+// Set map definition
 
 // Add reset button
 var reset_button = chart.chartContainer.createChild(am4core.Button);
