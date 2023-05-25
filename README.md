@@ -1,17 +1,17 @@
 ![alt text](https://imgur.com/HpMr0vs.png)
 # Eurovision voting relationships
 
-You can see the visualization here: https://alexisgeorgiou.github.io/eurovision_country_relationships/
+You can see the visualization here: https://alexisgeorgiou.github.io/eurovision_country_relationships/<br>
 
 # Summary
-In the visualization, you can see how biased is each country on their vote for other countries and the other way around.
-So in simple words, you can who "likes" each country and which country "likes" who.
-You can click each country to see the information, and there are also two buttons that you can choose which relationship you want to see "likes" or "liked by".
+In the visualization, you can see how biased is each country on their vote for other countries and the other way around.<br>
+So in simple words, you can who "likes" each country and which country "likes" who.<br>
+You can click each country to see the information, and there are also two buttons that you can choose which relationship you want to see "likes" or "liked by".<br>
 
 # Basic implementation:
-I used the data of [Stephan Okhuijsen in data.world](https://data.world/datagraver/eurovision-song-contest-scores-1975-2019/workspace/file?filename=eurovision_song_contest_1957_2023.xlsx), it contains every vote for 1957 to 2023 contests.
-I had to preproccess, and modify the data by doing multiple queries and calculate a score based on each unique pair.
-Then used a javascript module (amcharts) to visualize the map. The js code is a little messy but the result is better than any other option in python (folium, geopandas etc).
+I used the data of [Stephan Okhuijsen in data.world](https://data.world/datagraver/eurovision-song-contest-scores-1975-2019/workspace/file?filename=eurovision_song_contest_1957_2023.xlsx), it contains every vote for 1957 to 2023 contests.<br>
+I had to preproccess, and modify the data by doing multiple queries and calculate a score based on each unique pair.<br>
+Then used a javascript module (amcharts) to visualize the map. The js code is a little messy but the result is better than any other option in python (folium, geopandas etc).<br>
 The relationship is a unique pair of two countries (X->Y), the order matters since "X votes for Y". We can calculate how strong this relationship is by the following formula. We get all the events that this pair occured, and we add on the score the difference between the points given and the average points Y country received (this is the total Y points the country received on the specific event divided by the amount of voting countries). Then we just divide this sum by the number of events this pair was found.
 
 # More details:
