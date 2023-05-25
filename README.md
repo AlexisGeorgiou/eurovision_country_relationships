@@ -23,3 +23,6 @@ I will add more filters in the future for Jury and for Jury and Tele together wh
 
 ## Future work technical stuff
 I would like to improve the UI a bit (add legends/labels, use colors in buttons, color the selected country), make the buttons more function, maybe add some flags, change the coordinates of Australia to be closer in Europe and make a Rest of the world country. Add Jury vote filter. Come up with more visualizations.
+
+
+![My Image](https://imgur.com/ly0obAU.png)
