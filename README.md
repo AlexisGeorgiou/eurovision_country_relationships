@@ -17,7 +17,7 @@ The relationship is a unique pair of two countries (X->Y), the order matters sin
 # More details:
 The score is based on televoting points only, I can add jury in the furure too but I was more interested in the televoting. Televoting is quite old in eurovision but it was only publicly shared since 2016. Before 2016 the televoting points were announced averaged with the jury votes which makes it noisy for my purpose. 
 
-# Interesting stuff, future work, how this could be useful?
+# Interesting stuff, future work, how could this be useful?
 Using this map we can see how each country's population is more keened to vote for "friendly" nations. I had also made other interesting visualation, such as the stronger relationships between countries in eurovision. An interesting application is to use the relationships to come up with a score to balance semi-finals sub groups. Since semi-finals are only based on televoting (since 2023), we can come up with two balanced sub-groups that will have as little deviation as possible between their members. This would make the competition more fair, at least for the semi-final stages.
 I will add more filters in the future for Jury and for Jury and Tele together which could allow me to add older events too.
 
